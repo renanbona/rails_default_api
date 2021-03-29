@@ -15,12 +15,12 @@ The setups steps expect following tools installed on the system.
 git clone git@github.com:renanbona/rails_default_api.git
 ```
 
-##### 2. Create database.yml file
+##### 2. Configure environment variables
 
-Copy the sample database.yml file and edit the database configuration as required.
+Copy the sample .env file and edit the environment variables as required.
 
 ```bash
-cp config/database.yml.sample config/database.yml
+cp .env_sample .env
 ```
 
 ##### 3. Install the gems
